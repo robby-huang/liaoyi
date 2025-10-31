@@ -8,7 +8,7 @@ import joblib
 st.set_page_config(page_title="学生成绩预测", page_icon="", layout="wide")
 
 def load_data():
-    df = pd.read_csv(r'D:\streamlit_env\期末考核\student_data_adjusted_rounded.csv') 
+    df = pd.read_csv(r'student_data_adjusted_rounded.csv') 
     return df
 df = load_data()
 
